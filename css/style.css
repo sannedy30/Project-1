@@ -1,0 +1,32 @@
+.topnav {
+  background-color: rgb(243, 207, 5);
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: rgb(156, 69, 10);
+  color: black;
+}
+.topnav a.active {
+  background-color: #b87222;
+  color: rgb(5, 1, 1);
+}
+body, html{
+  height: 100%;
+}
+body {
+  background-image: url("../images/BG\ Pizza\ Image.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+  h1 {
+    font: url("../Fonts/Lobster/Lobster-Regular.ttf");
+  }∏
