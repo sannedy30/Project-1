@@ -18,6 +18,12 @@
   background-color: #b87222;
   color: rgb(5, 1, 1);
 }
+
+@font-face {
+  src: url(../Fonts/Anton/Anton-Regular.ttf);
+  font-family: anton;
+}
+
 body, html{
   height: 100%;
 }
@@ -63,19 +69,28 @@ body {
   }
   .pizzagallery img {
     height: 200px;
-    width: 20%;
-    border-image: 100px;
+    width: 20px%;
+    border: rgb(123, 163, 123);
+    border-width: thick;
+    border-style: solid;
     margin-left: 100px;
     margin-right: 50px;
-    border-bottom: lightgreen;
+    position: relative;
+    
   }
   .thincrust {
     column-count: 3;
     margin: 50px;
+    font-family: Anton;
+    font-size: x-large;
+
   }
   .deepdish  {
     column-count: 3;
     margin: 50px;
+    padding: 5px;
+    font-family: Anton;
+    font-size: x-large;
   }
 
   #footer {
