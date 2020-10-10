@@ -26,6 +26,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  
   }
   h1 {
     text-align: center;
@@ -55,6 +56,26 @@ body {
   }
   h3 {
     text-align: center;
+  }
+  h4 {
+    text-align: center;
+    
+  }
+  .pizzagallery img {
+    height: 200px;
+    width: 20%;
+    border-image: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-bottom: lightgreen;
+  }
+  .thincrust {
+    column-count: 3;
+    margin: 50px;
+  }
+  .deepdish  {
+    column-count: 3;
+    margin: 50px;
   }
 
   #footer {
