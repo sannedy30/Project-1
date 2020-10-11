@@ -51,15 +51,17 @@ body {
   }
   h2 {
     text-align: center;
-    margin: 10px;
-    padding: 0px;
+    margin: 0px;
+    padding: 5px;
     font-family: Anton;
+    font-size: 50px;
     
   }
   button {
     margin: 10px;
     padding: 15px;
     text-align: center;
+    border-radius: 10px;
   }
   footer {
     font-weight: bold;
@@ -87,7 +89,7 @@ body {
     border: rgb(123, 163, 123);
     border-width: thick;
     border-style: solid;
-    margin-left: 125px;
+    margin-left: 100px;
     margin-right: 50px;
     position: relative;
     
@@ -103,40 +105,48 @@ body {
     margin: 0px;
   }
   
-  .deepdish  {
-    column-count: 2;
+  .deepdish1  {
+    column-count: 1;
     margin: 0px;
     padding: 5px;
     font-family: Amatic;
     font-size: x-large;
     background-color: rgb(123, 163, 123,0.6);
+    margin-left: 900px;
+    margin-right: 100px;
+    border-radius: 4px;
     
+  }
+  .deepdish2  {
+    column-count: 1;
+    margin: 0px;
+    padding: 5px;
+    font-family: Amatic;
+    font-size: x-large;
+    background-color: rgb(123, 163, 123,0.6);
+    margin-right: 900px;
+    margin-left: 100px;
+    border-radius: 5px;
   }
   .form {
     background-color: rgb(123, 163, 123, 0.6);
-    margin-left: 200px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding: 20px;
     border-radius: 5px;
     
   }
 
-  input[type=text], select, textarea {
+  input[type=text],textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: none;
+   
   }
   
 
-  #footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-  }
-  
