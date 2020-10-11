@@ -1,6 +1,7 @@
 .topnav {
   background-color: rgb(123, 163, 123, 0.6);
   overflow: hidden;
+  border-radius: 5px;
 }
 .topnav a {
   float: right;
@@ -33,7 +34,8 @@
 }
 
 body, html{
-  height: 100%;
+  height: auto;
+  width: auto;
 }
 body {
   background-image: url("../images/BG\ Pizza\ Image.JPG");
@@ -55,6 +57,8 @@ body {
     padding: 5px;
     font-family: Anton;
     font-size: 50px;
+    background-color: rgb(123, 163, 123, 0.6);
+    border-radius: 0px,0px,5px,5px;
     
   }
   button {
@@ -74,12 +78,13 @@ body {
   h3 {
     text-align: center;
     font-family: Anton;
-    font-size: large;
+    font-size: 30px;
+    
   }
   h4 {
     text-align: center;
     font-family: Anton;
-    font-size: large;
+    font-size: 30px;
     
     
   }
@@ -92,14 +97,18 @@ body {
     margin-left: 100px;
     margin-right: 50px;
     position: relative;
+    border-radius: 10px;
+    margin-top: 20px;
     
   }
   .thincrust {
     column-count: 3;
     margin: 0px;
+    padding: 10px;
     font-family: Amatic;
     font-size: x-large;
     background-color: rgb(123, 163, 123,0.6);
+    border-radius: 10px;
   }
   p {
     margin: 0px;
@@ -108,33 +117,54 @@ body {
   .deepdish1  {
     column-count: 1;
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
     font-family: Amatic;
     font-size: x-large;
-    background-color: rgb(123, 163, 123,0.6);
-    margin-left: 900px;
-    margin-right: 100px;
-    border-radius: 4px;
-    
+    margin-left: 50px;
+    margin-right: 450px;
+    border-radius: 10px;
+    text-align: justify center;
+    width: 250px;
+    float: left;
   }
   .deepdish2  {
     column-count: 1;
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
     font-family: Amatic;
     font-size: x-large;
+    margin-left: 015px;
+    margin-right: 150px;
+    border-radius: 10px;
+    text-align: left;
+    width: 250px;
+    float: left;
+    
+  }
+  #rightbox {
+    width: 170%;
+    float: left;
+    height: auto;
+    background-color: rgb(123, 163, 123,0.6); 
+    padding: 10px;
+    border-radius: 5px;
+   
+  }
+  #leftbox {
+    width: 170%;
+    float: left;
+    height: auto;
     background-color: rgb(123, 163, 123,0.6);
-    margin-right: 900px;
-    margin-left: 100px;
+    padding: 10px;
     border-radius: 5px;
   }
+ 
   .form {
     background-color: rgb(123, 163, 123, 0.6);
     margin-left: 150px;
     margin-right: 150px;
     padding: 20px;
-    border-radius: 5px;
-    
+    border-radius: 10px;
   }
 
   input[type=text],textarea {
