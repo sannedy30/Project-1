@@ -1,5 +1,5 @@
 .topnav {
-  background-color: rgb(123, 163, 123);
+  background-color: rgb(123, 163, 123, 0.6);
   overflow: hidden;
 }
 .topnav a {
@@ -17,6 +17,10 @@
 .topnav a.active {
   background-color: #b87222;
   color: rgb(5, 1, 1);
+}
+@font-face {
+  src: url(../Fonts/Secular_One/SecularOne-Regular.ttf);
+  font-family: secular;
 }
 
 @font-face {
@@ -40,9 +44,9 @@ body {
   }
   h1 {
     text-align: center;
-    font-family: cursive;
-    font-size: xx-large;
-    background-color: rgb(123, 163, 123); 
+    font-size: 100px;
+    background-color: rgb(123, 163, 123,0.6);
+    font-family: secular; 
     
   }
   h2 {
@@ -108,9 +112,26 @@ body {
     background-color: rgb(123, 163, 123,0.6);
     
   }
-  .backgroundcolor {
+  .form {
+    background-color: rgb(123, 163, 123, 0.6);
+    margin-left: 200px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 5px;
     
   }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+  }
+  
 
   #footer {
     position: absolute;

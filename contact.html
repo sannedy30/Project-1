@@ -7,17 +7,29 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>Sannedy's Chicago Pizza Joint</h1>
-  <h2>CONTACT US</h2>
+  <!--<h1>Sannedy's Chicago Pizza Joint</h1>-->
+  
   <div class="topnav">
     <a class="active" href="index.html">Home</a>
     <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
+    <a href="contact.html">Contact & Order</a>
   </div>
+  <h2>Call In To Order at 972-585-8973</h2>
   <h3>Let Us Know How We're Doing</h3>
+<div class="form">
   <form>
-    <input type="text"><button>Name</button></input>
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+    <label for="lastname">Last Name</label>
+    <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+    <label for="emailaddress">Email</label>
+    <input type="text" id="emailaddress" name="emailaddress" placeholder="Your Email Address" required>
+    <label for="comment">Your Comments</label>
+    <textarea id="comment" name="commentbox" placeholder="Type Here"></textarea>
+    <button>Submit</button>
   </form>
+</div>
+
   <footer id="footer">Chicago's Best</footer>
 </body>
 </html>
