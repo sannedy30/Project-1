@@ -32,18 +32,53 @@
   src: url(../Fonts/Amatic_SC/);
   font-family: Amatic;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body, html{
   height: auto;
   width: auto;
+  padding: 0px;
+}
+#SLIDE_BG {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slideBg 8s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  background-image: url('../bgimages/table.jpg');
+  
+}
+@keyframes slideBg {
+  0% {
+    background-image: url('../bgimages/table.jpg');
+  }
+  25% {
+    background-image: url('../bgimages/bar.jpg')
+  }
+  50% {
+    background-image: url('../bgimages/people.jpg')
+  }
+  75% {
+    background-image: url('../bgimages/restaurant.jpg')
+  }
+  100% {
+    background-image: url('../bgimages/table.jpg')
+  }
 }
 body {
   background-image: url("../images/BG\ Pizza\ Image.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  
+  min-width: 999px;
   }
+
   h1 {
     text-align: center;
     font-size: 100px;
@@ -59,7 +94,13 @@ body {
     font-size: 50px;
     background-color: rgb(123, 163, 123, 0.6);
     border-radius: 0px,0px,5px,5px;
-    
+  }
+  h5 {
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    font-family: Anton;
+    font-size: 50px;
   }
   button {
     margin: 10px;
